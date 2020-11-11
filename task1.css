@@ -1,0 +1,153 @@
+body {
+    background-image: url('pexels-photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 62.5%;
+  }
+  .dark-mode
+  {
+    background-image: url('pexels-photo-1114690.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+#form1 form
+{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    
+}
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 3%;
+    display: inline-block;
+    border: 2px solid rgb(152, 158, 230);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 3%;
+    display: inline-block;
+    border: 2px solid rgb(152, 158, 230);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 3%;
+    display: inline-block;
+    border: 2px solid rgb(152, 158, 230);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 20%;
+    background-color: #1e78ee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #ec95c5;
+  }
+#theme
+{
+  width: 20%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:2px solid rgb(152, 158, 230);
+  border-radius: 4px;
+}
+#color
+{
+  width: 20%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:2px solid rgb(152, 158, 230);
+  border-radius: 4px;
+}
+#font
+{
+  width: 20%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:2px solid rgb(152, 158, 230);
+  border-radius: 4px;
+}
+#label1
+{
+  font-size: 1.2em;
+}
+#label
+{
+  font-size: 1em;
+}
+#labe2
+{
+  font-size: 1.5em;
+  margin-left: 8px;
+}
+button
+{
+  width: 10%;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5a5859;
+}
+#addfr
+{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 1%;
+  display: inline-block;
+  border: 2px solid rgb(152, 158, 230);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#add
+{
+  width: 10%;
+    background-color: #1e78ee;
+    color: white;
+    padding: 14px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+#add:hover {
+  background-color:  #ec95c5;
+}
+#remove
+{
+  width: 10%;
+    background-color: #1e78ee;
+    color: white;
+    padding: 2px 2px;
+    margin: 2% ;
+    border:2px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    cursor: pointer;
+}
