@@ -4,23 +4,22 @@
             element.classList.toggle("dark-mode");
          }
         i=0;
+        var textID;
          document.getElementById("add").onclick = function() {
             var text1 = document.getElementById("addfr").value; 
-            var li = "<li><span id='skillItem'>" + text1 + "</span> " +'<button id="remove">Remove</button>' + "</li>";
+             textID = 'skillItem'+i;
+            var li = "<li id='"+textID+ "'>" + text1  +"<button onclick='reply_click(this.id)' id='"+textID+"'>Remove</button>" + "</li>";
             i++;
             document.getElementById("list").innerHTML += li;
-             document.getElementById("addfr").value = ""; // clear the value
+             document.getElementById("addfr").value = ""; 
+                     
         }
-        var allskillItem = document.querySelectorAll(".skillItem");
-   for (var index = 0; index <allskillItem.length; index++){
-      allskillItem[index].addEventListener("click", function(){
-         this.classList.toggle("active");
-      });
-      allskillItem[index].querySelector("button").addEventListener("click",
-      function(){
-         this.closest(".skillItem").remove();
-      });
-   }
+        var element;
+        function reply_click(clicked_id)
+        {
+            element= document.getElementById(clicked_id);
+            element.remove();
+        }
       
        $(document).ready(function () {
 
