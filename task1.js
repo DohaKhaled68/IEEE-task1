@@ -8,7 +8,7 @@
          document.getElementById("add").onclick = function() {
             var text1 = document.getElementById("addfr").value; 
              textID = 'skillItem'+i;
-            var li = "<li id='"+textID+ "'>" + text1  +"<button onclick='reply_click(this.id)' id='"+textID+"'>Remove</button>" + "</li>";
+            var li = "<li id='"+textID+ "'>" + text1  +"<button onclick='reply_click(this.id)' class='remove' id='"+textID+"'>Remove</button>" + "</li>";
             i++;
             document.getElementById("list").innerHTML += li;
              document.getElementById("addfr").value = ""; 
